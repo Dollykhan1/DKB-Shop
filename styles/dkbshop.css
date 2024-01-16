@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* shared styles */
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.dkbshop{
+    padding: o;
+    margin: 0;
+}
+
+header{
+    margin:0 50px;
+
+}
+
+nav{
+    display: flex;
+}
+nav h2{
+flex :70%
+}
+nav ul{
+   flex: 30% ;
+   list-style-type: none; 
+}
+nav li{
+    float:left;
+    padding: 10px;
+
+}
+.them-color{
+    color: rgb(251, 166, 10); 
+}
+.top-continer{
+    padding: 100px 300px;
+    background-image:url("../images/Group13.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    color: aliceblue;
+
+}
+.Select-travel{
+   display:flex ;
+   background-color:rgb(255, 255, 255,.5 );
+   margin: 20px 50px;
+   padding: 20px;
+   
+}
+.Travel-1{
+    flex: 20%;
+}
+.Travel-2{
+    flex:20%;
+}
+.Travel-3{
+flex: 20%;
+}
+.Travel-4{
+    flex: 20;
+}
+.Popular-Tours{
+  display:flex ;
+  margin: 40px;
+
+}
+.Popular-Toursleft{
+    flex: 60% ;
+}
+.Popular-Toursright{
+    flex: 40%;
+}
+button{
+    padding: 5px;
+    background-color: brown;
+    color: azure;
+}
+.Destination{
+    text-align: center;
+    margin: 50px;
+}
+
+.Maldives{
+    display: flex;
+    margin: 40px;
+}
+.Maldives-left{
+    flex: 40%;
+    padding: 200px 300px;
+    background-image:url("../images/Rectangle\ 5.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    color: aliceblue;
+    margin: 50px;
+}
+.Indonesia-right{
+    flex: 40%;
+    padding: 200px 300px;
+    background-image:url("../images/Rectangle\ 8.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    color: aliceblue;
+    margin: 50px;
+   
+}
+.Srilanka{
+    display: flex;
+    margin: 40px;
+}
+.Srilanka-left{
+    flex: 25%;
+    padding: 100px 200px;
+    background-image:url("../images/Rectangle\ 6.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    color: aliceblue;
+    margin: 50px;
+}
+.North-America-center{
+    flex: 40%;
+    padding: 100px 200px;
+    background-image:url("../images/Rectangle\ 7.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    color: aliceblue;
+    margin: 40px 20px;
+   
+}
+.Kashmir-right{
+    flex: 25%;
+    padding: 100px 200px;
+    background-image:url("../images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    color: aliceblue;
+    margin: 50px;
+   
+}
+.Bangladesh{
+    display: flex;
+    margin: 40px;
+}
+.Bangladesh-left{
+    flex: 30%;
+    padding: 200px 300px;
+    background-image:url("../images/Rectangle\ 11.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    color: aliceblue;
+    margin: 20px;
+}
+.Bandarban-right{
+    flex: 50%;
+    padding: 200px 300px;
+    background-image:url("../images/Rectangle\ 10.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    color: aliceblue;
+    margin: 20px;
+   
+}
+.Best-Price{
+    margin: 2% 30%;
+    background-color: rgb(246, 242, 239);
+    padding: 20px;
+    
+}
+.Newslette{
+    padding: 40px;
+    border: 1px solid coral;
+    margin: 0 40px;
+
+
+}
+footer{
+    padding: 40px;
+    margin: 60px 40px;
+    text-align: center;
+    background-color: bisque;
+}
+
